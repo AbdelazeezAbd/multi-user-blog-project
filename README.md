@@ -2,6 +2,8 @@
 
 this project allows for users to register, log in, log out, post, comment, like, edit and delete
 
+the project is available [in this link](https://userblog-212912.appspot.com/blog)
+
 ## to run the project follow :
 #### locally
 1. install google app engine by following [these instructors](https://drive.google.com/open?id=0Byu3UemwRffDc21qd3duLW9LMm8)
