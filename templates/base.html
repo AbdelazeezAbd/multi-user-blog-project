@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/main.css">
+    <title>Multi User Blog</title>
+</head>
+
+<body>
+<header>
+    {% if user %}
+    <a href="/blog/newpost">New Post</a>
+    <a href="/logout">Log Out</a>
+    {% else %}
+    <a href="/login">Log In</a>
+    <a href="/signup">Sign Up</a>
+    {% endif %}
+</header>
+
+<a href="/blog" class="main-title">
+    Multi User Blog
+</a>
+
+<div id="content">
+    {% block content %}
+    {% endblock %}
+</div>
+</body>
+</html>
